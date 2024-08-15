@@ -1,3 +1,22 @@
+package test
+
+import (
+	"den/main"
+	"net/http"
+	"net/http/httptest"
+	"strings"
+	"testing"
+
+	"github.com/stretchr/testify/assert"
+)
+
+func setupApp() *main.App {
+	app := main.App()
+	// Inisialisasi aplikasi Anda di sini
+	// Misalnya, jika Anda menggunakan framework seperti Fiber atau Echo, Anda bisa menginisialisasinya di sini
+	return &app{}
+}
+
 func TestGetUsers(t *testing.T) {
 	app := setupApp()
 

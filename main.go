@@ -3,6 +3,7 @@ package main
 import (
 	"den/config"
 	"den/entity"
+	"den/migrate"
 	"log"
 
 	"github.com/gofiber/fiber/v2"
@@ -11,17 +12,16 @@ import (
 )
 
 func initDatabase() *gorm.DB {
-	//dsn := "host=localhost user=postgres password=yourpassword dbname=yourdb port=5432 sslmode=disable"
-	dsn := config.PostgresStringConnection
+	dsn := "host=" + config.PostgresHost + " port=" + config.PostgressPort + " user=" + config.PostgresUser + " password=" + config.PostgresPassword + " dbname= " + config.PostgresDB + " sslmode=" + config.PostgresSSLMode
+
 	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
 	if err != nil {
 		log.Fatal("Failed to connect to database:", err)
 	}
-	db.AutoMigrate(&entity.User{})
 	return db
 }
 
-func main() {
+func app() *fiber.App {
 	app := fiber.New()
 	db := initDatabase()
 
@@ -77,5 +77,12 @@ func main() {
 		return c.JSON(users)
 	})
 
+	return app
+}
+
+func main() {
+	migrate.Run_db()
+	migrate.Run_seed()
+	app := app()
 	log.Fatal(app.Listen(":4000"))
 }
