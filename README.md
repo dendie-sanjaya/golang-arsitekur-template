@@ -74,7 +74,7 @@ about auto populate  data in you can write like this
 
 For run unit testing, you can type command  
 
-<pre><code>go test test/*_test.go</pre>/<code>
+<pre><code>go test test/*_test.go</code></pre>
 
 ![Go Test ](./doc-asset/got-test.png)
 
