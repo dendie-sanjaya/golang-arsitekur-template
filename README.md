@@ -20,6 +20,13 @@ A golang template architecture using fiber framework version 2, the goal of this
 
 **
 
+- **config/**: Berisi konfigurasi untuk proyek, seperti `config.go`.
+- **entity/**: Berisi file entitas yang diimplementasikan dalam `Go`.
+- **migrate/**: Folder untuk migrasi database, termasuk file `db.go` untuk migrasi dan `seed.go` untuk seed data.
+- **test/**: Berisi file pengujian (`*_test.go`).
+- **main.go**: File utama yang berisi titik masuk (`entry point`) aplikasi.
+- **README.md**: File ini berisi dokumentasi proyek.
+
 - Config/config.go  : Place for all global varible configuration 
 - Controller/*.go   : Place for all logic process
 - Entity/*.entiy    : Place for all model like strukur data
