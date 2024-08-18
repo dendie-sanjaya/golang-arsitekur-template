@@ -36,6 +36,8 @@ Clone the repository:
 go run main.go  
 </code></pre>   
 
+![Run Program](./doc-asset/run-program.png)
+
 ## API Postmant 
 
 https://documenter.getpostman.com/view/11442516/2sA3s9D8CR
