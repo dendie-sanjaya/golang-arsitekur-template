@@ -4,6 +4,7 @@ A golang template architecture using fiber framework version 2, the goal of this
 
 ## Structur Directory
 
+**
 .
 ├── config
 │   └── config.go
@@ -17,6 +18,7 @@ A golang template architecture using fiber framework version 2, the goal of this
 ├── main.go
 └── README.md
 
+**
 
 - Config/config.go  : Place for all global varible configuration 
 - Controller/*.go   : Place for all logic process
