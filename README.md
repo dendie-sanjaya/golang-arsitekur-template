@@ -43,22 +43,40 @@ go run main.go
 https://documenter.getpostman.com/view/11442516/2sA3s9D8CR
 
 **Sampe Request Post API**
+
 ![Sampe Post API](./doc-asset/sampe-create-request-get.png)
 
 **Sampe Requeest Get API**
+
 ![Sampe Get API](./doc-asset/sampe-create-request-post.png)
 
 ## Simple Guide 
 
-**Create Controller dan Routing URL **
+**Create Controller dan Routing URL**
+
 Create URL route and logic as sample this screen shoot below  
-![Sampe Get API](./doc-asset/sampe-create-request-post.png)
 
-**Auto Migrate  **
-about auto migrate database strukutr table and data in file main.go on line 25 and 26, if you dont need this just remove this line or give commet     
-![Sampe Get API](./doc-asset/sampe-create-request-post.png)
+![Sampe Get API](./doc-asset/sample-create-respon.png)
 
+**Auto Migrate**
 
+about auto migrate database struktur table and data in file main.go on line 25 and 26, if you dont need this just remove this line or give commet    
+
+![Sampe Get API](./doc-asset/auto-run-migrate.png)
+
+**Populate Date**
+
+about auto populate  data in you can write like this 
+
+![Populate Data ](./doc-asset/populate-data.png)
+
+**Run Unit Test**
+
+For run unit testing, you can type command  
+
+<pre><code>go test test/*_test.go</pre>/<code>
+
+![Go Test ](./doc-asset/got-test.png)
 
 ## Contact
 
