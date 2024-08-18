@@ -16,3 +16,8 @@ Steps to install this framework:
 
 1. Clone the repository:
    git clone https://github.com/dendie-sanjaya/golang-arsitekur-template
+
+##  Contact
+
+If you have question, you can contact this email   
+Email: dendie.sanjaya@gmail.com
