@@ -29,7 +29,7 @@ A golang template architecture using fiber framework version 2, the goal of this
 Steps to install this framework:
 
 Clone the repository:
-  ** git clone https://github.com/dendie-sanjaya/golang-arsitekur-template**
+  **git clone https://github.com/dendie-sanjaya/golang-arsitekur-template**
 
 ## Run App
 <pre><code>go mod tidy
