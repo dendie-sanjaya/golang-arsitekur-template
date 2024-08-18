@@ -3,29 +3,19 @@
 A golang template architecture using fiber framework version 2, the goal of this architecture is to make it easy to create rest api based services using the golang programming language as easy as using php, nodejs or python
 
 ## Structur Directory
-
-**
-.
+<pre><code>
 ├── config
-│   └── config.go
+    └── config.go
 ├── entity
-│   └── *.go
+|   └── *.go
 ├── migrate
-│   ├── db.go
-│   ├── seed.go
+|   └── db.go
+    └── seed.go
 ├── test
-│   └── *_test.go
+|    └── *_test.go
 ├── main.go
 └── README.md
-
-**
-
-- **config/**: Berisi konfigurasi untuk proyek, seperti `config.go`.
-- **entity/**: Berisi file entitas yang diimplementasikan dalam `Go`.
-- **migrate/**: Folder untuk migrasi database, termasuk file `db.go` untuk migrasi dan `seed.go` untuk seed data.
-- **test/**: Berisi file pengujian (`*_test.go`).
-- **main.go**: File utama yang berisi titik masuk (`entry point`) aplikasi.
-- **README.md**: File ini berisi dokumentasi proyek.
+</code></pre>
 
 - Config/config.go  : Place for all global varible configuration 
 - Controller/*.go   : Place for all logic process
@@ -38,15 +28,19 @@ A golang template architecture using fiber framework version 2, the goal of this
 
 Steps to install this framework:
 
-1. Clone the repository:
+Clone the repository:
    git clone https://github.com/dendie-sanjaya/golang-arsitekur-template
 
-##  Contact
+## Run App
+<pre><code>go mod tidy
+go run main.go  
+</code></pre>   
+
+## Contact
 
 If you have question, you can contact this email   
 Email: dendie.sanjaya@gmail.com
 
-
-License
+## License
 
 This project is licensed under the MIT License.
