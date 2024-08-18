@@ -36,6 +36,8 @@ Clone the repository:
 go run main.go  
 </code></pre>   
 
+![Run Program](./doc-asset/run-program.png)
+
 ## API Postmant 
 
 https://documenter.getpostman.com/view/11442516/2sA3s9D8CR
@@ -45,6 +47,17 @@ https://documenter.getpostman.com/view/11442516/2sA3s9D8CR
 
 **Sampe Requeest Get API**
 ![Sampe Get API](./doc-asset/sampe-create-request-post.png)
+
+## Simple Guide 
+
+**Create Controller dan Routing URL **
+Create URL route and logic as sample this screen shoot below  
+![Sampe Get API](./doc-asset/sampe-create-request-post.png)
+
+**Auto Migrate  **
+about auto migrate database strukutr table and data in file main.go on line 25 and 26, if you dont need this just remove this line or give commet     
+![Sampe Get API](./doc-asset/sampe-create-request-post.png)
+
 
 
 ## Contact
