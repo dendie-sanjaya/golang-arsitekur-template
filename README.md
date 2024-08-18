@@ -36,6 +36,17 @@ Clone the repository:
 go run main.go  
 </code></pre>   
 
+## API Postmant 
+
+https://documenter.getpostman.com/view/11442516/2sA3s9D8CR
+
+**Sampe Request Post API**
+![Sampe Post API](./doc-asset/sampe-create-request-get.png)
+
+**Sampe Requeest Get API**
+![Sampe Get API](./doc-asset/sampe-create-request-post.png)
+
+
 ## Contact
 
 If you have question, you can contact this email   
