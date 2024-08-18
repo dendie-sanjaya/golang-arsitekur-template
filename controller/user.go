@@ -85,5 +85,21 @@ func UserControler(app *fiber.App, db *gorm.DB) *fiber.App {
 		})
 	})
 
+	app.Get("/users2", func(c *fiber.Ctx) error {
+		var users []entity.User
+		limit := c.QueryInt("limit", 10) // Default limit to 10 if not provided
+		order := c.Query("order", "asc") // Default order to ascending if not provided
+
+		if result := db.Order("created_at " + order).Limit(limit).Find(&users); result.Error != nil {
+			return c.Status(500).JSON(result.Error)
+		}
+
+		return c.JSON(fiber.Map{
+			"status":   "success",
+			"code":     200,
+			"message:": "Hello World",
+			"data":     users,
+		})
+	})
 	return app
 }
