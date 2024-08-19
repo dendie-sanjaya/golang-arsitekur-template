@@ -64,7 +64,7 @@ about auto migrate database struktur table and data in file main.go on line 25 a
 
 ![Sampe Get API](./doc-asset/auto-run-migrate.png)
 
-**Populate Date**
+**Populate Data**
 
 about auto populate  data in you can write like this 
 
