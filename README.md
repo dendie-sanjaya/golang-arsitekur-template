@@ -1,8 +1,25 @@
 # Den Golang Architecture Template
 
+## Introduction
+
 A golang template architecture using fiber framework version 2, the goal of this architecture is to make it easy to create rest api based services using the golang programming language as easy as using php, nodejs or python
 
-## Structur Directory
+## Table of Contents
+- [Introduction](#introduction)
+- [Directory Structure](#directory-structure)
+- [Installation](#installation)
+- [Run App](#run-app)
+- [API Postman](#API-Postmant)
+- [Simple Guide](#simple-guide)
+  - [Create Controller and Routing URL](#create-controller-and-routing-url)
+  - [Auto Migrate](#auto-migrate)
+  - [Populate Data](#populate-data)
+  - [Run Unit Test](#run-unit-test)
+- [Contact](#contact)
+- [License](#license)
+
+  
+## Directory Structure
 <pre><code>
 ├── config
     └── config.go
@@ -38,7 +55,7 @@ go run main.go
 
 ![Run Program](./doc-asset/run-program.png)
 
-## API Postmant 
+## API Postmant
 
 https://documenter.getpostman.com/view/11442516/2sA3s9D8CR
 
